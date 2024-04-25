@@ -65,12 +65,7 @@ const styles = StyleSheet.create({
   marginBottom:60
 
   },
-  quote1: {
-    fontSize: 18,
-    fontStyle: "normal",
-    textAlign: 'center',
-    color:"blue"
-  },
+ 
 });
 
 export default App;
