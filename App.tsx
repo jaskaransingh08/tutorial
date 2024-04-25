@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
   },
   cont:{
   fontSize:40,
-  color:"blue",
+  color:"red",
   marginBottom:60
 
   },
