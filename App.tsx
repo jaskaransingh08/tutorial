@@ -1,5 +1,5 @@
-import React from 'react';
 import { View, Text, StatusBar, StyleSheet, ScrollView } from 'react-native';
+import Screenn from './src/Components/Screen';
 
 const quotes = [
   "The only way to do great work is to love what you do. - Steve Jobs",
@@ -22,6 +22,7 @@ const App = () => {
           </ScrollView>
         ))}
       </View>
+      <Screenn></Screenn>
     </View>
   );
 };
@@ -29,14 +30,14 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff',
+    backgroundColor: '#blue',
     alignItems: 'center',
     justifyContent: 'center',
 
   },
   cardContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-evenly',
+    justifyContent: "space-between",
     flexWrap: "wrap",
   },
   card: {
