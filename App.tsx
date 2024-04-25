@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   cont:{
   fontSize:20,
   color:"blue",
-  marginBottom:60
+  marginBottom:59
 
   },
  
