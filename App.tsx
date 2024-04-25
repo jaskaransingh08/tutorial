@@ -6,7 +6,7 @@ const quotes = [
   "Innovation distinguishes between a leader and a follower. - Steve Jobs",
   "Your time is limited, don't waste it living someone else's life. - Steve Jobs",
   "Stay hungry, stay foolish. - Steve Jobs",
-  "klsmnjkdn"
+  "klsmnjk"
 ];
 
 const App = () => {
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
   },
   cont:{
   fontSize:40,
-  color:"red",
+  color:"blue",
   marginBottom:60
 
   }
